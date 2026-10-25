@@ -1,0 +1,25 @@
+{
+  "name": "antigravity-presence",
+  "displayName": "Antigravity Presence: Discord Rich Presence",
+  "description": "Shows your Antigravity workspace, file and agent activity on Discord (lightweight, local).",
+  "version": "1.0.0",
+  "publisher": "nayanroy14",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/NayanRoy14/antigravity-presence" },
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Antigravity Presence",
+      "properties": {
+        "antigravityPresence.root": {
+          "type": "string",
+          "default": "",
+          "description": "Folder you cloned antigravity-presence into (the one with daemon.js and session.js)."
+        }
+      }
+    }
+  }
+}

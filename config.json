@@ -1,0 +1,43 @@
+{
+  "clientId": "1563821497896931348",
+  "appName": "Antigravity",
+
+  "images": {
+    "editing": "https://raw.githubusercontent.com/NayanRoy14/vibing/main/antigravity-type.gif",
+    "viewing": "https://raw.githubusercontent.com/NayanRoy14/vibing/main/antigravity-float.gif",
+    "thinking": "https://raw.githubusercontent.com/NayanRoy14/vibing/main/antigravity-think.gif",
+    "working": "https://raw.githubusercontent.com/NayanRoy14/vibing/main/antigravity-work.gif",
+    "idle": "https://raw.githubusercontent.com/NayanRoy14/vibing/main/antigravity-sleep.gif"
+  },
+
+  "frames": {
+    "editing": [
+      ["Editing {file}", "{project} · {lang}"],
+      ["Editing {file}", "+{sessionAdded} lines this session · {todayHours} today"]
+    ],
+    "viewing": [
+      ["Viewing {file}", "{project} · {lang}"],
+      ["Working in {project}", "{todayHours} today"]
+    ],
+    "thinking": [
+      ["Agent thinking in {project}", "{model}"],
+      ["Agent thinking in {project}", "+{agentAdded} lines by agent this session"]
+    ],
+    "working": [
+      ["Agent working in {project}", "{tool} · {model}"],
+      ["Agent working in {project}", "+{agentAdded} lines by agent this session"]
+    ],
+    "idle": [
+      ["Idle in {project}", "{todayHours} today"],
+      ["This week", "{weekHours} · {topLang}"],
+      ["Code this week", "+{weekAdded} lines by you · +{weekAgentAdded} by agent"]
+    ]
+  },
+
+  "projects": {},
+  "githubButton": true,
+  "rotateSeconds": 12,
+  "hideAfterIdleMinutes": 0,
+  "staleMinutes": 30,
+  "exitAfterIdleSeconds": 60
+}
